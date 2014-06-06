@@ -5,6 +5,6 @@ public class ActionExecute {
 	private String className;
 	
 	public void execute() {
-		
+		System.out.println("1254");
 	}
 }
