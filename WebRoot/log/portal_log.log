@@ -1,0 +1,87 @@
+2014-05-31 18:20:48 <Parsing configuration file [struts-default.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:20:48 <Parsing configuration file [struts-plugin.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:20:48 <Parsing configuration file [com/skss/portal/config/struts.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:20:48 <Initializing Struts-Spring integration...> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 18:20:48 <Setting autowire strategy to name> - [com.opensymphony.xwork2.spring.SpringObjectFactory]  - INFO   
+2014-05-31 18:20:48 <... initialized Struts-Spring integration successfully> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 18:20:51 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:20:53 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:20:55 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:20:56 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:01 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:03 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:04 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:21 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:22 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:24 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:41 <Parsing configuration file [struts-default.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:22:41 <Parsing configuration file [struts-plugin.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:22:41 <Parsing configuration file [com/skss/portal/config/struts.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:22:41 <Initializing Struts-Spring integration...> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 18:22:41 <Setting autowire strategy to name> - [com.opensymphony.xwork2.spring.SpringObjectFactory]  - INFO   
+2014-05-31 18:22:41 <... initialized Struts-Spring integration successfully> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 18:22:52 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:53 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:55 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:22:58 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:23:05 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 18:23:31 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:23:32 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:23:33 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:23:35 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:23:36 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 18:31:01 <Parsing configuration file [struts-default.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:31:01 <Parsing configuration file [struts-plugin.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:31:01 <Parsing configuration file [com/skss/portal/config/struts.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 18:31:01 <Initializing Struts-Spring integration...> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 18:31:01 <Setting autowire strategy to name> - [com.opensymphony.xwork2.spring.SpringObjectFactory]  - INFO   
+2014-05-31 18:31:01 <... initialized Struts-Spring integration successfully> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 18:31:14 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:31:16 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:31:17 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:31:19 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 18:31:43 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:31:45 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:31:47 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:32:13 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 18:40:22 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:40:24 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:40:26 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:40:28 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 18:43:20 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:43:22 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:43:25 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:43:30 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:43:33 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 18:52:25 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:52:27 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:52:28 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:52:29 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 18:52:48 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:52:49 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:52:51 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:52:52 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:52:54 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 18:52:55 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 18:54:08 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 20:01:04 <Parsing configuration file [struts-default.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 20:01:04 <Parsing configuration file [struts-plugin.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 20:01:04 <Parsing configuration file [com/skss/portal/config/struts.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 20:01:04 <Initializing Struts-Spring integration...> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 20:01:04 <Setting autowire strategy to name> - [com.opensymphony.xwork2.spring.SpringObjectFactory]  - INFO   
+2014-05-31 20:01:04 <... initialized Struts-Spring integration successfully> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 20:01:10 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 20:01:12 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 20:01:14 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 20:01:15 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 20:01:24 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   
+2014-05-31 20:13:00 <Parsing configuration file [struts-default.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 20:13:00 <Parsing configuration file [struts-plugin.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 20:13:00 <Parsing configuration file [com/skss/portal/config/struts.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-31 20:13:00 <Initializing Struts-Spring integration...> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 20:13:00 <Setting autowire strategy to name> - [com.opensymphony.xwork2.spring.SpringObjectFactory]  - INFO   
+2014-05-31 20:13:00 <... initialized Struts-Spring integration successfully> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-31 20:13:04 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 20:13:09 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 20:13:10 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-31 20:13:11 <角色获取成功!> - [com.skss.portal.action.RoleAction]  - INFO   

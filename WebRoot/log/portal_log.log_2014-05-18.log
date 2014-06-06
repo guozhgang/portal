@@ -1,0 +1,13 @@
+2014-05-18 00:04:25 <Parsing configuration file [struts-default.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-18 00:04:25 <Parsing configuration file [struts-plugin.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-18 00:04:25 <Parsing configuration file [com/skss/portal/config/struts.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-18 00:04:25 <Initializing Struts-Spring integration...> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-18 00:04:25 <Setting autowire strategy to name> - [com.opensymphony.xwork2.spring.SpringObjectFactory]  - INFO   
+2014-05-18 00:04:25 <... initialized Struts-Spring integration successfully> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-18 00:04:37 <菜单加载成功！！！> - [com.skss.portal.action.MenuAction]  - INFO   
+2014-05-18 21:09:43 <Parsing configuration file [struts-default.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-18 21:09:43 <Parsing configuration file [struts-plugin.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-18 21:09:43 <Parsing configuration file [com/skss/portal/config/struts.xml]> - [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider]  - INFO   
+2014-05-18 21:09:43 <Initializing Struts-Spring integration...> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
+2014-05-18 21:09:43 <Setting autowire strategy to name> - [com.opensymphony.xwork2.spring.SpringObjectFactory]  - INFO   
+2014-05-18 21:09:43 <... initialized Struts-Spring integration successfully> - [org.apache.struts2.spring.StrutsSpringObjectFactory]  - INFO   
