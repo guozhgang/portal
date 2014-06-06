@@ -5,6 +5,6 @@ public class ActionExecute {
 	private String className;
 	
 	public void execute() {
-		System.out.println("1254");
+		System.out.println("this is new ");
 	}
 }
