@@ -17,4 +17,8 @@ public class UserBiz {
 		return userDao.getAllUser();
 	}
 	
+	public void save(User user) {
+		userDao.save(user);
+	}
+	
 }

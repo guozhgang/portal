@@ -22,4 +22,7 @@ public class UserService {
 		}
 		return "error";
 	}
+	public void save(User user) {
+		userBiz.save(user);
+	}
 }
