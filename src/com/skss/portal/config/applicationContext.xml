@@ -58,7 +58,7 @@
 			<tx:method name="*" propagation="REQUIRED" />
 		</tx:attributes>
 	</tx:advice>
-	<aop:config proxy-target-class="true">
+	<aop:config proxy-target-class="false"> 
 		<aop:pointcut expression="execution(public * com.skss.portal.service.*.*(..))" id="myTest"/>
 		<aop:advisor advice-ref="txAdvice" pointcut-ref="myTest"/>
 	</aop:config> 

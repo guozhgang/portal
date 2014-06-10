@@ -1,4 +1,4 @@
-package com.skss.portal.action;
+package com.frame.action;
 
 import javax.annotation.Resource;
 
@@ -11,7 +11,6 @@ import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.springframework.context.annotation.Scope;
 
-import com.frame.action.ActionUtil;
 import com.skss.portal.service.ContactsService;
 import com.skss.portal.service.MenuService;
 @Data

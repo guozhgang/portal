@@ -11,18 +11,15 @@ import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.springframework.context.annotation.Scope;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.ApplicationContext;
+import org.springframework.stereotype.Service;
+
+import com.frame.action.ApplicationContextUtils;
 import com.skss.portal.entity.User;
 import com.skss.portal.service.UserService;
-@Data
-@Scope("prototype")
-@ParentPackage("struts-default")
-@Namespace("")
-@Action(value="userAction",results={
-	@Result(name="success",location="/success.jsp"),
-	@Result(name="error",location="/error.jsp")
-})
-public class UserAction extends com.frame.action.ActionUtil<UserAction>{
+
+public class UserAction {
 	
 	@Resource(name="service.UserService")
 	private UserService userService;
@@ -32,30 +29,20 @@ public class UserAction extends com.frame.action.ActionUtil<UserAction>{
 	}
 	
 	public void save() {
-		//userService.save(user);
-		String className = "RoleAction";
-		javax.servlet.ServletContext application = org.apache.struts2.ServletActionContext.getRequest().getSession().getServletContext();
-		ApplicationContext cc = org.springframework.web.context.support.WebApplicationContextUtils.getWebApplicationContext(application);
-		cc.getBean("roleAction");
-		//http://www.blogjava.net/coderdream/archive/2012/04/09/162644.html 
-		Class cls = null;
+		String actionName = "user.userAction";
+		ApplicationContext ax = new ClassPathXmlApplicationContext("com/skss/portal/config/applicationContext.xml");
+		Object uc = ax.getBean(actionName);
 		try {
-			cls = (Class)Class.forName(className).newInstance();
-			System.out.println(cls.getName());
-		} catch (Exception e1) {
+			Method method = uc.getClass().getDeclaredMethod("dd");
+			method.invoke(uc.getClass().newInstance());
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-		System.out.println(UserAction.class.getName());
-		
-		try {
-			Method method = cls.getClass().getDeclaredMethod("findAllRole");
-			method.invoke("findAllRole".getClass().newInstance());
-		} catch (Exception e){
 			e.printStackTrace();
 		}
+		
 	}
 	public void dd(){
 		System.out.println("ddd");
 	}
+	
 }

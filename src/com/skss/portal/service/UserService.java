@@ -4,15 +4,15 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
+import com.skss.portal.action.AbstractService;
 import com.skss.portal.biz.UserBiz;
 import com.skss.portal.entity.User;
 
 @Service("service.UserService")
 public class UserService {
-	static Logger log= Logger.getLogger(UserService.class);
+	private User user;
 	@Resource(name="biz.UserBiz")
 	private UserBiz userBiz;	
 	public String getAllUser(){
@@ -22,7 +22,7 @@ public class UserService {
 		}
 		return "error";
 	}
-	public void save(User user) {
+	public void save() {
 		userBiz.save(user);
 	}
 }

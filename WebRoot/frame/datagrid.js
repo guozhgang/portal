@@ -4,6 +4,7 @@ var buildEasyUI = {
 		singleSelect:true,
 		pagination:true,
 		rownumbers:true,
+		queryParams:{},
 		striped:true,
 		datagridID:'',
 		width:400,
@@ -20,6 +21,7 @@ var buildEasyUI = {
 		createDataGrid:function(url, columns){
 			 $("#" + this.datagridID).datagrid({
 				url:url,
+				queryParams:this.queryParams,
 				fitColumns:this.fitColumns,
 				singleSelect:this.singleSelect,
 				pagination:this.pagination,
