@@ -10,6 +10,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
     <title>My JSP 'index.jsp' starting page</title>
     <base href="<%=basePath%>">
+
 	<link rel='stylesheet' type='text/css' href='ext/resources/css/ext-all.css' />
 	<script src='ext/ext-base.js'></script>
 	<script src='ext/ext-all.js'></script>
@@ -18,5 +19,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
+
   </body>
 </html>
