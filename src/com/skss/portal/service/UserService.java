@@ -6,7 +6,7 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.skss.portal.action.AbstractService;
+import com.frame.action.SuperAction;
 import com.skss.portal.biz.UserBiz;
 import com.skss.portal.entity.User;
 
