@@ -1,7 +1,5 @@
 package com.skss.portal.action;
 
-import java.lang.reflect.Method;
-
 import javax.annotation.Resource;
 
 import lombok.Data;
@@ -11,38 +9,32 @@ import org.apache.struts2.convention.annotation.Namespace;
 import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.springframework.context.annotation.Scope;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.context.ApplicationContext;
-import org.springframework.stereotype.Service;
 
-import com.frame.action.ApplicationContextUtils;
+import com.frame.action.ActionUtil;
 import com.skss.portal.entity.User;
 import com.skss.portal.service.UserService;
 
-public class UserAction {
-	
-	@Resource(name="service.UserService")
-	private UserService userService;
+@Scope("prototype")
+@ParentPackage("json-default")
+@Namespace("")
+@Action(value="userAction",results={
+	@Result(name="list",type="json")
+})
+@Data
+public class UserAction extends ActionUtil<UserAction>{
 	private User user;
-	public String getAllUser(){
-		return userService.getAllUser();
-	}
-	
+	@Resource(name = "service.UserService")
+	private UserService userService;
 	public void save() {
-		String actionName = "user.userAction";
-		ApplicationContext ax = new ClassPathXmlApplicationContext("com/skss/portal/config/applicationContext.xml");
-		Object uc = ax.getBean(actionName);
-		try {
-			Method method = uc.getClass().getDeclaredMethod("dd");
-			method.invoke(uc.getClass().newInstance());
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		userService.save();
+		if(!"".equals(user.getUserid()) && null != user.getUserid()) {
+			try {
+				super.print("true");
+				logger.info("用户增加成功!");
+			} catch (Exception e) {
+				// TODO: handle exception
+				logger.info("用户增加失败,请联系管理员!"+e.getMessage());
+			}
 		}
-		
 	}
-	public void dd(){
-		System.out.println("ddd");
-	}
-	
 }

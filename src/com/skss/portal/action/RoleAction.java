@@ -32,7 +32,6 @@ public class RoleAction extends ActionUtil<RoleAction> {
 	private TbRole tbRole;
 	private String menuIds;
 
-
 	public void saveRole(){
 		String[] menuIdArray = menuIds != null ? menuIds.split(",") : null;
 		roleService.saveRole(tbRole, menuIdArray);

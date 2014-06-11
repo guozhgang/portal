@@ -31,6 +31,8 @@ public class ActionUtil<T> extends Log4jUtil <T>implements ServletRequestAware,S
 	protected int rows;
 	protected int page;
 	protected int start;  //从第几条开始
+	
+	
 	public void setServletRequest(HttpServletRequest request) {
 		// TODO Auto-generated method stub
 		this.request = request;
