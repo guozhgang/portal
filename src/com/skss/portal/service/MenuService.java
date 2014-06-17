@@ -9,6 +9,7 @@ import net.sf.json.JSONArray;
 
 import org.springframework.stereotype.Repository;
 
+import com.frame.util.CglibProxy;
 import com.skss.portal.biz.MenuBiz;
 import com.skss.portal.entity.Menu;
 import com.skss.portal.entity.TreeNode;
@@ -60,6 +61,14 @@ public class MenuService {
 		JSONArray json = JSONArray.fromObject(treelist);
 		return json;
 	}
-	
+	public int read() {
+		System.out.println("cglib proxy");
+		return 2;
+	}
+	public static void main(String[] args) {
+		CglibProxy proxy = new CglibProxy();
+		MenuService menuS = (MenuService)proxy.getInstance(new MenuService());
+		menuS.read();
+	}
 	
 }

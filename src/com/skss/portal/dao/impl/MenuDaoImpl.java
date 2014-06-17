@@ -22,4 +22,9 @@ public class MenuDaoImpl extends BaseDao<Menu> implements MenuDao {
 		return getCountBySql("select count(*) from cms_back_menu where parent_menu_id=?", parentMenuId);
 	}
 
+	public void say() {
+		// TODO Auto-generated method stub
+		System.out.println("say hello");
+	}
+
 }

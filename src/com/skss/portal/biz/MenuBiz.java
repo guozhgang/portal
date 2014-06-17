@@ -16,7 +16,7 @@ public class MenuBiz {
 	
 	public List<Menu> getAllMenu(String menuId) {
 		String sql = "select * from cms_back_menu where ";
-		if(menuId==null){
+		if(menuId==null || "null".equals(menuId)){
 			sql+="parent_menu_id = '0'";
 		}else{
 			sql+="parent_menu_id='"+menuId+"'";
