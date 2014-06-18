@@ -21,4 +21,7 @@ public class UserBiz {
 		userDao.save(user);
 	}
 	
+	public List<User> findAllUser() {
+		return userDao.findAllUser();
+	}
 }

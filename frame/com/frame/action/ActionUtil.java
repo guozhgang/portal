@@ -79,6 +79,13 @@ public class ActionUtil<T> extends Log4jUtil <T>implements ServletRequestAware,S
 		
 		this.print(dataJSON);
 	}
+	public void printJSON(List list, int total) throws IOException {
+		response.setContentType("text/html;charset=utf-8");
+		map.put(Constant.ROOT, list);
+		map.put(Constant.TOTALPROPERTY, total);
+		JSONArray json = JSONArray.fromObject(map);
+		this.print(json);
+	}
 	public void printJSONForTreeOrCombo(List list) throws IOException{
 		//ParameterizedType pt = (ParameterizedType) ActionUtil.class.getField("list").getGenericType();
 		JSONArray json = JSONArray.fromObject(list);

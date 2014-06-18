@@ -25,4 +25,7 @@ public class UserService {
 	public void save() {
 		userBiz.save(user);
 	}
+	public List<User> findAllUser() {
+		return userBiz.findAllUser();
+	}
 }

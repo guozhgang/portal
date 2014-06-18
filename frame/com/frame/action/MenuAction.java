@@ -35,6 +35,7 @@ public class MenuAction extends ActionUtil<MenuAction>{
 	@Resource(name="service.contactsService")
 	private ContactsService contactsService;
 	private String id = null;
+	private String node = null;
 /**
  * 
  * 方法名称：getMenu
@@ -53,6 +54,16 @@ public class MenuAction extends ActionUtil<MenuAction>{
 			logger.info("菜单加载失败"+e.getMessage());
 		} 
 	}
-	
+	public void findMenu() {
+		JSONArray json = menuService.findMenu(node);
+		try {
+			response.setContentType("text/javascript;charset=utf-8");
+			print(json);
+			logger.info("extjs菜单加载成功");
+		} catch (Exception e) {
+			// TODO: handle exception
+			logger.info("extjs菜单加载失败"+e.getMessage());
+		}
+	}
 	
 }

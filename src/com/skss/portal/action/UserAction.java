@@ -1,5 +1,8 @@
 package com.skss.portal.action;
 
+import java.io.IOException;
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import lombok.Data;
@@ -17,23 +20,34 @@ import com.skss.portal.service.UserService;
 @Scope("prototype")
 @ParentPackage("json-default")
 @Namespace("")
-@Action(value="userAction",results={
-	@Result(name="list",type="json")
-})
+@Action(value = "userAction", results = { @Result(name = "list", type = "json") })
 @Data
-public class UserAction extends ActionUtil<UserAction>{
+public class UserAction extends ActionUtil<UserAction> {
 	private User user;
 	@Resource(name = "service.UserService")
 	private UserService userService;
+
 	public void save() {
 		userService.save();
-		if(!"".equals(user.getUserid()) && null != user.getUserid()) {
+		if (!"".equals(user.getUserid()) && null != user.getUserid()) {
 			try {
 				super.print("true");
 				logger.info("用户增加成功!");
 			} catch (Exception e) {
 				// TODO: handle exception
-				logger.info("用户增加失败,请联系管理员!"+e.getMessage());
+				logger.info("用户增加失败,请联系管理员!" + e.getMessage());
+			}
+		}
+	}
+
+	public void findAllUser() {
+		List<User> list = userService.findAllUser();
+		if(list.size() != 0) {
+			try {
+				this.printJSON(list, 10);
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		}
 	}

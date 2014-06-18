@@ -19,4 +19,7 @@ public class UserDao extends BaseDao<User> {
 	public void saveUser(User user) {
 		saveOrUpdate(user);
 	}
+	public List<User> findAllUser() {
+		return findListBySQL("select * from cms_back_user");
+	}
 }
