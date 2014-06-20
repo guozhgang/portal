@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
 
 import org.apache.struts2.ServletActionContext;
 import org.apache.struts2.interceptor.ServletRequestAware;
@@ -80,10 +81,9 @@ public class ActionUtil<T> extends Log4jUtil <T>implements ServletRequestAware,S
 		this.print(dataJSON);
 	}
 	public void printJSON(List list, int total) throws IOException {
-		response.setContentType("text/html;charset=utf-8");
 		map.put(Constant.ROOT, list);
 		map.put(Constant.TOTALPROPERTY, total);
-		JSONArray json = JSONArray.fromObject(map);
+		JSONObject json = JSONObject.fromObject(map);
 		this.print(json);
 	}
 	public void printJSONForTreeOrCombo(List list) throws IOException{
